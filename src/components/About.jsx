@@ -1,19 +1,24 @@
+import { useState } from "react";
+
 const About = () => {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <section id="about" className="bg-black text-white p-10">
       <div className="mx-auto grid max-w-6xl items-center gap-10 rounded-2xl border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur-sm md:grid-cols-2">
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-gray-900/70">
-          <img
-            src="/assets/profile.jpg"
-            alt="profile"
-            className="h-full w-full object-cover"
-            onError={(e) => {
-              e.currentTarget.style.display = "none";
-            }}
-          />
-          <div className="flex h-72 items-center justify-center text-gray-400">
-            Add your photo at public/assets/profile.jpg
-          </div>
+          {!imgError ? (
+            <img
+              src="/assets/profile.jpg"
+              alt="profile"
+              className="h-full w-full object-cover"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <div className="flex h-72 items-center justify-center text-gray-400">
+              Add your photo at public/assets/profile.jpg
+            </div>
+          )}
         </div>
         <div>
           <h2 className="mb-6 text-3xl font-bold">About Me</h2>
