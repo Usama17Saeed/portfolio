@@ -1,25 +1,19 @@
 const projectItems = [
   {
-    title: "Diabetic Retinopathy Detection System",
+    title: "Hosteloo-Online Hostel Management System",
     description:
-      "AI-powered web application that detects diabetic retinopathy using deep learning. Integrated Flask backend with React frontend. Displays predictions with confidence scores.",
-    stack: ["React", "Flask", "Python", "TensorFlow"],
-    github: "#",
-    demo: "https://gentle-nasturtium-0775a6.netlify.app",
+      "A comprehensive hostel management system with features for student registration, room allocation, fee management, and staff administration.",
+    stack: ["HTML","CSS","JavaScript", "Flask", "Python", "MONGODB"],
+    github: "https://github.com/Usama17Saeed/Hosteloo-Online-Hostel-Booking-System",
+    demo: "",
   },
   {
-    title: "Portfolio Website",
-    description: "A modern portfolio website with responsive sections and smooth navigation.",
-    stack: ["React", "Tailwind CSS", "Netlify"],
-    github: "https://github.com/yourname/portfolio",
-    demo: "#",
-  },
-  {
-    title: "Task Manager App",
-    description: "Productivity app with authentication, task tracking, and dashboard insights.",
-    stack: ["React", "Flask", "SQLite"],
-    github: "https://github.com/yourname/task-manager",
-    demo: "#",
+    title: "Flight Reservation System",
+    description: "A modern website with responsive sections and smooth navigation.",
+    stack: ["HTML","CSS","JavaScript", "PHP", "MySQL"],
+    github: "https://github.com/Usama17Saeed/Online-flight-Reservation-System",
+    demo: ""
+      ,
   },
 ];
 

@@ -28,10 +28,10 @@ const Contact = () => {
         </form>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-gray-300">
-          <a href="mailto:magsikhalidhussain81@gmail.com" className="hover:text-white">
-            magsikhalidhussain81@gmail.com
+          <a href="mailto:usamasaeed0322077@gmail.com" className="hover:text-white">
+            usamasaeed0322077@gmail.com
           </a>
-          <span className="text-gray-400">+92 333 7511351</span>
+          <span className="text-gray-400">+92 322 0779242</span>
           <span className="text-gray-400">Islamabad, Pakistan</span>
         </div>
       </div>

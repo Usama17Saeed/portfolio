@@ -21,7 +21,7 @@ const Navbar = () => {
           duration={500}
           className="cursor-pointer text-lg font-bold tracking-wide text-white"
         >
-          Khalid Hussain
+          Usama Saeed
         </Link>
 
         <button

@@ -1,10 +1,10 @@
 const skillItems = [
-  { icon: "🐍", name: "Python", level: "92%" },
-  { icon: "🤖", name: "Machine Learning", level: "88%" },
-  { icon: "🧠", name: "Deep Learning", level: "86%" },
-  { icon: "⚛️", name: "React", level: "85%" },
+  { icon: "🐍", name: "HTML", level: "92%" },
+  { icon: "🎨", name: "CSS", level: "88%" },
+  { icon: "💻", name: "JavaScript", level: "70%" },
+  { icon: "⚛️", name: "React", level: "80%" },
   { icon: "🧪", name: "Flask", level: "84%" },
-  { icon: "📊", name: "TensorFlow & PyTorch", level: "82%" },
+  { icon: "📊", name: "SQL", level: "95%" },
 ];
 
 const Skills = () => {

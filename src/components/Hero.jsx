@@ -8,10 +8,10 @@ const Hero = () => {
     >
       <div className="fade-in-up w-full max-w-4xl rounded-2xl border border-white/10 bg-white/5 p-8 text-center shadow-2xl backdrop-blur-sm">
         <p className="mb-4 uppercase tracking-widest text-blue-400">Hello, I am</p>
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Khalid Hussain</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">Usama Saeed</h1>
         <h2 className="mb-4 text-xl text-gray-200 md:text-2xl">AI &amp; Web Developer</h2>
         <p className="mx-auto mb-8 max-w-2xl text-gray-300">
-          Computer Science graduate focused on AI, Machine Learning, and production-ready Python solutions.
+          Computer Science Student focused on Web Development and AI/ML.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link
