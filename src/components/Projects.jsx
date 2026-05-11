@@ -5,15 +5,15 @@ const projectItems = [
       "A comprehensive hostel management system with features for student registration, room allocation, fee management, and staff administration.",
     stack: ["HTML","CSS","JavaScript", "Flask", "Python", "MONGODB"],
     github: "https://github.com/Usama17Saeed/Hosteloo-Online-Hostel-Booking-System",
-    demo: "",
+   
   },
   {
     title: "Flight Reservation System",
     description: "A modern website with responsive sections and smooth navigation.",
     stack: ["HTML","CSS","JavaScript", "PHP", "MySQL"],
     github: "https://github.com/Usama17Saeed/Online-flight-Reservation-System",
-    demo: ""
-      ,
+    
+      
   },
 ];
 
